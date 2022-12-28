@@ -17,6 +17,7 @@ install python and ttkbootstrap in your command line
 **In your Command line**
 
 --cd (folder name)--
+
 --python (python file name.py)--
 
 No need to install tkinter because it comes with python
