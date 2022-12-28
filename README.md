@@ -4,7 +4,7 @@ Celcius to fahrenheit calculator created in tkinter
 
 My first ever GUI in python and tkinter 
 
-The goal for this is to improve and create a real calculator in the future
+The goal for this is to improve my knowledge in tkinter and create a real calculator in the future
 
 **How to use it**
 
