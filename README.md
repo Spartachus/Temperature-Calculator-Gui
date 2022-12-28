@@ -8,7 +8,7 @@ The goal for this is to improve my knowledge in tkinter and create a real calcul
 
 **How to use it**
 
-install python and ttkbootstrap
+install python and ttkbootstrap in your command line
 
 --pip install python--
 
