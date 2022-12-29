@@ -2,7 +2,12 @@ import tkinter as tk
 #from tkinter import ttk
 import ttkbootstrap as ttk
 
-def convert():
+def Celcius():
+    Celcius_input = entry_int.get()
+    far_output = (Celcius_input*9/5)+32
+    output_str.set(far_output)
+    
+def Fahrenheit():
     Celcius_input = entry_int.get()
     far_output = (Celcius_input*9/5)+32
     output_str.set(far_output)
@@ -22,7 +27,10 @@ entry_int = tk.IntVar()
 
 
 entry = ttk.Entry(master = input_frame, textvariable = entry_int)
-button = ttk.Button(master = input_frame, text = "convert", command = convert)
+
+button = ttk.Button(master = input_frame, text = "convert", command = Celcius)
+button2 = ttk.Button(master = input_frame, text = "convert", command = Fahrenheit)
+
 
 entry.pack(side = "left", padx = 10)
 button.pack(side = "left")
