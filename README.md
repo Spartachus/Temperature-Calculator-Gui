@@ -20,4 +20,4 @@ install python and ttkbootstrap in your command line
 
 --python (python file name.py)--
 
-No need to install tkinter because it comes with python
+No need to install tkinter because it's built into the python standard library
