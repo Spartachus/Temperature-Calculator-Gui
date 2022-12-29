@@ -1,6 +1,6 @@
-# Celcius-to-Fahrenheit-Calculator-GUI-in-tkinter
+# Temperature-Calculator-GUI-in-tkinter
 
-Celcius to fahrenheit calculator created in tkinter 
+Temperature calculator created in tkinter 
 
 My first ever GUI in python and tkinter 
 
