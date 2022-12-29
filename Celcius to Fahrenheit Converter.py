@@ -18,7 +18,7 @@ window = ttk.Window(themename = "journal")
 window.title("Temp Calc")
 
 # texts
-title_label = ttk.Label(master = window, text = "Celcius to Fahrenheit", font = "Calibri 24 bold")
+title_label = ttk.Label(master = window, text = "Temperature Calculator", font = "Calibri 22 bold")
 title_label.pack()
 
 # input
@@ -34,6 +34,7 @@ button2 = ttk.Button(master = input_frame, text = "convert", command = Fahrenhei
 
 entry.pack(side = "left", padx = 10)
 button.pack(side = "left")
+button2.pack(padx = 10)
 input_frame.pack()
 
 # output
